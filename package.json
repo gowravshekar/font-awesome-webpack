@@ -1,0 +1,39 @@
+{
+    "name": "font-awesome-webpack",
+    "version": "0.0.1",
+    "description": "font-awesome package for webpack",
+    "main": "index.js",
+    "loader": "index.loader.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/gowravshekar/font-awesome-webpack.git"
+    },
+    "keywords": [
+        "font-awesome",
+        "webpack"
+    ],
+    "author": {
+        "name": "Gowrav Shekar",
+        "url": "@gowravshekar"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/gowravshekar/font-awesome-webpack/issues"
+    },
+    "dependencies": {
+        "css-loader": "~0.8.0",
+        "less-loader": "~0.7.7",
+        "style-loader": "~0.8.0"
+    },
+    "peerDependencies": {
+        "font-awesome": ">=4.0.0"
+    },
+    "readme": "",
+    "readmeFilename": "README.md",
+    "homepage": "https://github.com/gowravshekar/font-awesome-webpack",
+    "_id": "font-awesome-webpack@0.0.1",
+    "_from": "font-awesome-webpack@"
+}
