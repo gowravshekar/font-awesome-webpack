@@ -23,12 +23,13 @@ module.exports = {
 };
 ```
 
-Font awesome urls are of the format `[dot][extension]?=[version-number]`, e.g. `.woff?v=4.2.0`.
+Font awesome font urls are of the format `[dot][extension]?=[version-number]`, for example `.woff?v=4.2.0`
+
 The Regex for font types are adjusted to support these formats. Regex also support urls ending with .woff, .ttf, .eot and .svg (Used by Bootstrap).
 
 ### Complete Font-Awesome
 
-To use the complete font-awesome package including styles and scripts with the default settings:
+To use the complete font-awesome package including all styles with the default settings:
 
 ``` javascript
 require("font-awesome-webpack");
@@ -39,7 +40,7 @@ require("font-awesome-webpack");
 You can configurate font-awesome-webpack with two configuration files:
 
 * `font-awesome.config.js`
-* `bootstrapfont-awesome.config.less`
+* `font-awesome.config.less`
 
 Add both files *next to each other* in your project. Then:
 
@@ -65,7 +66,6 @@ Example:
 ``` javascript
 module.exports = {
   styles: {
-    
     "mixins": true,
 
     "core": true,
