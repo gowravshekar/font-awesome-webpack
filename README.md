@@ -23,7 +23,7 @@ module.exports = {
 };
 ```
 
-Font awesome urls are of the format [dot][extension]?=[version-number], e.g. .woff?v=4.2.0.
+Font awesome urls are of the format `[dot][extension]?=[version-number]`, e.g. `.woff?v=4.2.0`.
 The Regex for font types are adjusted to support these formats. Regex also support urls ending with .woff, .ttf, .eot and .svg (Used by Bootstrap).
 
 ### Complete Font-Awesome
