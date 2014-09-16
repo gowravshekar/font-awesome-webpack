@@ -89,3 +89,25 @@ Example:
 @fa-inverse: #eee;
 @fa-border-color: #ddd;
 ```
+
+### extract-text-webpack-plugin
+
+Configure post style loaders in `font-awesome.config.js`.
+
+Example:
+
+``` javascript
+module.exports = {
+  postStyleLoaders: [
+    require.resolve('extract-text-webpack-plugin/loader.js') + '?{"omit":1,"extract":true,"remove":true}'
+  ],
+  scripts: {
+    ...
+  },
+  styles: {
+    ...
+  }
+};
+```
+
+Install `extract-text-webpack-plugin` before using this configuration.
