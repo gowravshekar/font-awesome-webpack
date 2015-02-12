@@ -3,14 +3,13 @@ module.exports = {
         'mixins': true,
         'bordered-pulled': true,
         'core': true,
-        'extras': true,
         'fixed-width': true,
         'icons': true,
         'larger': true,
         'list': true,
         'path': true,
         'rotated-flipped': true,
-        'spinning': true,
+        'animated': true,
         'stacked': true
     }
 };
