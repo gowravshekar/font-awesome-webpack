@@ -3,14 +3,13 @@ var styles = [
 
     'bordered-pulled',
     'core',
-    'extras',
     'fixed-width',
     'icons',
     'larger',
     'list',
     'path',
     'rotated-flipped',
-    'spinning',
+    'animated',
     'stacked'
 ];
 
