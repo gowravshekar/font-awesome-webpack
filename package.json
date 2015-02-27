@@ -1,6 +1,6 @@
 {
     "name": "font-awesome-webpack",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "font-awesome package for webpack",
     "main": "index.js",
     "loader": "index.loader.js",
@@ -29,7 +29,7 @@
         "style-loader": "~0.8.0"
     },
     "peerDependencies": {
-        "font-awesome": ">=4.0.0"
+        "font-awesome": ">=4.3.0"
     },
     "readme": "",
     "readmeFilename": "README.md",
