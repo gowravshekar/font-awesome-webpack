@@ -92,15 +92,13 @@ Example:
 
 ### extract-text-webpack-plugin
 
-Configure post style loaders in `font-awesome.config.js`.
+Configure style loader in `font-awesome.config.js`.
 
 Example:
 
 ``` javascript
 module.exports = {
-  postStyleLoaders: [
-    require.resolve('extract-text-webpack-plugin/loader.js') + '?{"omit":1,"extract":true,"remove":true}'
-  ],
+  styleLoader: require('extract-text-webpack-plugin').extract('style-loader', 'css-loader!less-loader'),
   styles: {
     ...
   }
