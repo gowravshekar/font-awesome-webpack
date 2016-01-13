@@ -35,6 +35,8 @@ To use the complete font-awesome package including all styles with the default s
 require("font-awesome-webpack");
 ```
 
+The `require` statement should be present in your application code(Entry file or any other file required in entry file) and not in webpack.config.js.
+
 ### Custom configuration
 
 You can configurate font-awesome-webpack with two configuration files:
