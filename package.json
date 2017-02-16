@@ -1,6 +1,6 @@
 {
     "name": "font-awesome-webpack",
-    "version": "0.0.4",
+    "version": "0.0.5-beta.1",
     "description": "font-awesome package for webpack",
     "main": "index.js",
     "loader": "index.loader.js",
